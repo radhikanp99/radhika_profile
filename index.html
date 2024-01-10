@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radhika Pal Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/2f9c6a016f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Bula,</p>
+                <h1>I'm <span>Radhika Pal</span><br>Bachelor of Business - Human Resource Management</h1>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------about------------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I’m an enthusiastic and ambitious recent graduate holding a Bachelor of
+                        Business in Human Resource Management with Distinction.
+                        I’m seeking a challenging role which fosters continuous learning and
+                        development. Known for a robust work ethic, I am determined and
+                        dedicated to achieving success. My proven organisational and
+                        collaboration skills, cultivated through debating, are complemented by my
+                        previous experience in a corporate environment and customer service.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <uL>
+                            <li><span>People Management</span><br>Proven ability to lead and inspire teams, fostering a
+                                positive and collaboritive work environment.</li>
+                            <li><span>Conflict Resolution</span><br>Adept at identifying and resolving workspace
+                                conflifcts, promoting harmony and productivity.</li>
+                            <li><span>Client Centric Focus</span><br>Demonstrated commitment to understanding and
+                                meeting the needs of clients and employees.</li>
+                            <li><span>Consulting</span><br>Skilled in providing strategic HR advice and guidance to
+                                support organizational objectives.</li>
+                            <li><span>Financial Management</span><br>Proficient in managing HR budgets and resources
+                                effectively for optimal financial performance.</li>
+                            <li><span>Project Work</span><br>Experienced in overseeing HR projects from conception to
+                                completion, ensuring successful outcomes.</li>
+                            <li><span>Scheduling</span><br>Strong organizational skills with a focus on efficient
+                                scheduling and time management.</li>
+                            <li><span>Confidentiality</span><br>Upholds the highest standards of confidentiality and
+                                discretion in handling sensitive HR information.</li>
+                            <li><span>Proficiency in Software and Tooling</span><br>Technical proficiency in HR
+                                management systems, financial tools, and e-commerce platforms, e.g. Salesforce, Xero,
+                                Eway.</li>
+                            <li><span>Multi-Lingual</span><br>Fluent in multiple languages, facilitating effective
+                                communication in diverse and inclusive workplaces.</li>
+                        </uL>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <uL>
+                            <li><span>Talent Connect Australia - Property Manager/Relief</span><br>As a Property Manager
+                                – Relief at Talent
+                                Connect Australia, I provided coverage across various locations, managing administrative
+                                tasks such as call management and appointment oversight. I also played a key role in
+                                ensuring a positive living experience for residents.
+                            </li>
+                            <li><span>Bankstown Stormer Music - Studio Manager/Lead</span><br>As the Studio Manager/Lead
+                                at Bankstown Stormer Music, my responsibilities included:<br>
+                                - Oversaw day-to-day operations, ensuring a high standard of efficiency and a positive
+                                working environment.<br>
+                                - Executed successful sales activities, resulting in a 22% increase in enrollments over
+                                a 2-month period.<br>
+                                - Handled finance-related tasks, including billing, student enrollment, and account
+                                management.<br>
+                                - Managed appointments, allocated studio resources, and accommodated client and teacher
+                                requirements.<br>
+                                - Demonstrated proficiency in various software, including Slack, Xero, Eway, Keap, and
+                                Acuity.<br>
+                                - Responsible for the open/close of the studio and overall upkeep.<br>
+                            </li>
+                            <li><span>Virgin Australia Group - Guest Services Agent</span><br>As a Guest Services Agent
+                                at Virgin Australia, my daily routine involved<br>
+                                - Managed disruptions and escalations, this consists of reassigning guests to earlier
+                                flights and seat allocations<br>
+                                - Maintained accuracy and integrity by verifying documentation for both domestic and
+                                international travel<br>
+                                - Followed strict internal procedures for baggage checking, attaching thermal tags and
+                                conducting security questions to uphold safety standards<br>
+                                - Followed strict internal procedures to ensure a seamless check-in process for guests
+                                ensuring a smooth start for their travels<br>
+                                - Provided assistance to guests with special needs<br>
+                            </li>
+                            <li><span>PricewaterhouseCoopers(PwC) - Business Analyst</span><br>As a Business Analyst at
+                                PricewaterhouseCoopers, my role included:<br>
+                                - Liaising with diverse clients on projects, prioritizing confidentiality and
+                                discretion.<br>
+                                - Working both independently and collaboratively within teams to meet daily goals,
+                                deadlines, and KPIs.<br>
+                                - Demonstrating proficiency in Salesforce, MS Teams, and Outlook, with a focus on
+                                utilizing Salesforce for project management.<br>
+                                - Handling email administration and meeting transcriptions.<br>
+                                - Providing valuable feedback to enhance business processes, such as implementing a
+                                numeric method for daily goal setting during team meetings to boost productivity.<br>
+                            </li>
+                            <li><span>Big W - Customer Service Representative</span><br>Being a Customer Service
+                                Representative, my daily activities consisted of:<br>
+                                - Managed cash handling responsibilities, including counting and closing drawers at the
+                                end of shifts.<br>
+                                - Assumed the role of Recovery Leader.<br>
+                                - Conducted training sessions for new staff members.<br>
+                                - Addressed customer queries both over the phone and in person.<br>
+                                - Successfully resolved customer disputes.<br>
+                                - Handled and packed online orders.<br>
+                            </li>
+                        </uL>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <uL>
+                            <li><span>Bachelor of Business – Human Resource Management</span><br>Graduated with a
+                                focus on Human Resource Management from Western Sydney University.</li>
+                            <li><span>Awards and Activities</span><br>
+                                - Bachelor’s Degree with a High Distinction.<br>
+                                - Earned numerous Course Awards and achieved placement on the Dean’s
+                                Merit List Awards three consecutive years in a row whilst studying.<br>
+                                - Debating - Participating in debating has honed my ability to communicate
+                                effectively, delivering clear and persuasive messages to diverse audiences
+                                throughout my degree and workplace.<br>
+                                <br>Numerous Merit Awards:<br>
+                                - Academic<br>
+                                - Participation in social justice events<br>
+                                - Extracurricular activities such as debating and for selection in subject-based
+                                competitions<br>
+                                <br>These experiences have significantly enhanced my relationship-
+                                building, problem-solving, and communication skills within the university
+                                setting, group projects, and the workplace.<br>
+                            </li>
+                        </uL>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------contact------------------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> radhikanp99@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +61 434 875 798</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/radhika-pal-3062251a8" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/radhika_pal_resume_2024.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>This website was created thanks to the tutorial on GreatStack
+                <a href="https://www.youtube.com/watch?v=0YFrGy_mzjY&ab_channel=GreatStack" target="_blank">YouTube</a>
+                <i class="fa-brands fa-youtube"></i>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby3AakBHTDaoyqYvll0divG7AR--sApAt1wLSwLmOXjBMHR4Sia9tKUCYYw-z-hXCDL/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
